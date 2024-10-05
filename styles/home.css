@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", "Playfair Display", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+body {
+  background-image: url("/img/degradado_home.jpg"); 
+  
+  background-size: cover;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  padding: 0px 30px;
+  background-color: #fff;
+}
+main {
+  display: flex !important;
+  width: 100%;
+  justify-content: space-around;
+  padding: 20px 30px;
+}
+
+.contenedor-izquierdo {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  color: #fff;
+}
+.contenedor-izquierdo h1 {
+  display: flex;
+  flex-direction: column;
+  font-size: 76px;
+  margin: 0px;
+}
+.contenedor-izquierdo h1 span {
+  font-size: 24px;
+  font-family: "Playfair Display", sans-serif;
+  font-weight: normal;
+  margin: 0px;
+}
+
+.contenedor-izquierdo h2 {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 42px;
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  max-width: min-content;
+}
+.contenedor-izquierdo h2 span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  font-style: italic;
+  align-self: flex-end;
+}
+
+.foto {
+  width: 60%;
+}
+
+.foto img {
+  position: absolute;
+  bottom: 0px;
+  left: 4.5rem;
+  height: 90%;
+  max-height: 100vh;
+  object-fit: cover;
+}
+
+.info {
+  display: flex;
+  position: absolute;
+  right: 0;
+  width: 47%;
+  justify-content: space-around;
+  align-items: center;
+  color: #ef799c;
+  background-color: #fff;
+  border-radius: 12px 0px 0px 12px;
+  margin-top: 45px;
+  padding: 10px 0px;
+}
+.info p {
+  width: 65%;
+}
